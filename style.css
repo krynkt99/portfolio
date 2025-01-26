@@ -12,7 +12,7 @@
     background-color:rgb(128, 128, 125);
     transition: transform 0.3s ease-in;
     font-family: "Fira Sans", sans-serif;
-    height: 100vh;
+    height: 500vh;
 }
 
 .sidebar nav {
@@ -34,7 +34,7 @@ body{
 }
 
 .main {
-    width: 85vw;
+    width: 810px;
    
 }
 
@@ -44,7 +44,7 @@ body{
 
 .infoContainer{
     background-color: rgb(236, 243, 243);
-    height: 45vh;
+    height: 410px;
     width: 70vw;
     display: flex;
     margin: 50px 250px;
@@ -102,11 +102,19 @@ body{
 
 
 .devPic img{
-    height: 45vh;
+    height: 410px;
 }
-.photo{
-    margin: 10px 40px;
-    text-align: end;
+.photo1{
+    margin: 0px 350px;
+    
+}
+.photo2{
+    margin: 0px 350px;
+   
+}
+.photo3{
+    margin: 0px 350px;
+    
 }
 
 .contactform{
@@ -185,12 +193,6 @@ padding: 12px;
     align-items: center;
     font-weight: 500;
 }
-.icon{
-    display: inline;
-    margin-left: 1180px;
-   
-    
-}
 .skill{
     width: 265px;
     height: 6px;
@@ -227,14 +229,28 @@ left: 10px;
     margin-left:180px ;
     margin-top: 8px;
 }
-@media (max-width: 1315px){
-*{
-    background-color: rgb(16, 245, 245);
-}
+
+@media (max-width: 1350px){
+
 .devPic{
     display: none;
 }
+
 .intro, .blogContainer, .contactform{
     margin: 50px 8px;
+}
+.ham{
+    width: 50px;
+}
+.cross{
+    margin-left: 150px;
+    width: 35px;
+}
+.infoContainer{
+    margin: 20px 110px;
+
+}
+.photo1, .photo2, .photo3{
+    margin: 20px 110px;
 }
 }
