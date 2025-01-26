@@ -229,7 +229,7 @@ left: 10px;
 }
 @media (max-width: 1315px){
 *{
-    background-color: yellowgreen;
+    background-color: rgb(16, 245, 245);
 }
 .devPic{
     display: none;
