@@ -2,62 +2,66 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>PERSONAL PORTFOLIO</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Contact details</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="sidebar sidebargo">
-            <nav>
-                <ul>
-                    <li><a href="/index.html">HOME</a></li>
-                    <li><a href="/intro.html">MY INTRO</a></li>
-                    
-                    <li><a href="/blog.html">BLOG</a></li>
-                    <li><a href="/contact.html">CONTACT ME</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="main">
-          <div class="hamburger">
-            <img class="ham" src="ham1.png" alt="menu" width="27px">
-            <img class="cross" src="cross.png" alt="close" width="20px">
-        </div>
-            <div class="contactform">
-                <h1>Contact me for work/general queries</h1>
-                <form>
-                    <div class="mb-3">
-                        <label for="clientphone" class="form-label">Name</label>
-                        <input type="phone" class="form-control" id="clientphone">
-                      </div>
-                    <div class="mb-3">
-                      <label for="clientemail" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="clientphone" class="form-label">Phone</label>
-                      <input type="phone" class="form-control" id="clientphone">
-                    </div>
-                    <div class="mb-3">
-                        <label for="clientphone" class="form-label">Enquiry</label>
-                        <input type="phone" class="form-control" id="clientphone">
-                      </div>
-                    <div class="mb-3" id= "form-check">
-                      <input type="checkbox" class="form-check-input" id="isclient">
-                      <label class="form-check-label" for="isclient">want to collaborate?</label>
-                    </div>
-                    <button type="submit" class="btn btn-sm">Submit</button>
+  <header>
+    <div id="logo">CodeWithNikita</div>
+    <div class="header-links"><a href="index.html">HOME</a></div>
+    <div class="header-links"><a href="about.html">ABOUT</a></div>
+    <div class="header-links"><a href="project.html">PROJECT</a></div>
+    <div class="header-links"><a href="contact.html">CONTACT</a></div>
+  </header>
 
-                  </form>
-            </div>
+  <div class="main">
 
+    <div class="contactform">
+      <form>
+        <h1>Contact me</h1>
+        <div class="mb-3">
+          <label for="clientphone" class="form-label">Name</label>
+          <input type="phone" class="form-control" id="zclientphone">
         </div>
+        <div class="mb-3">
+          <label for="clientemail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="clientphone" class="form-label">Phone</label>
+          <input type="phone" class="form-control" id="clientphone">
+        </div>
+        <div class="mb-3">
+          <label for="clientphone" class="form-label">Enquiry</label>
+          <input type="phone" class="form-control" id="clientphone">
+        </div>
+        <div class="mb-3" id="form-check">
+          <input type="checkbox" class="form-check-input" id="isclient">
+          <label class="form-check-label" for="isclient">want to collaborate?</label>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+
+      </form>
     </div>
-    <script src="script.js"></script>
+
+  </div>
+  <footer>
+    <div class="copyright">© 2025 Nikita Kumari. All rights reserved</div>
+     <div class="social-icons">
+    <a href="https://www.linkedin.com/in/your-username" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.youtube.com/@devTiw004" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://instagram.com/your-username" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+
+  </footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
