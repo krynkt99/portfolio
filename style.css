@@ -195,20 +195,11 @@ body.dark-mode .paragraph{
   margin-left: 3.1rem;
   text-wrap: nowrap;
   overflow: hidden;
+  color: rgb(10, 180, 183);
   font-weight: bold;
   font-family: "Fira Sans", sans-serif;
-  background: url(/new.jpg) center;
-  background-size: cover;
-  background-clip: text;
-  color: transparent;
-  animation: animate 2s ease infinite;
 }
 
-@keyframes animate {
-  to {
-    background-position-x: -200px;
-  }
-}
 
 /*Developer image section --->*/
 
