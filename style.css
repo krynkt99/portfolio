@@ -12,9 +12,22 @@ body {
 }
 
 header {
-  height: 50px;
+  height: 8vh;
   width: 100%;
   background-color: #047d81cc;
+  color: white;
+}
+
+#logo {
+  font-size: 2.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+.navbar{
+  height: 6vh;
+  width: 100%;
+  background-color: #2fafb4cc;
   color: white;
   position: static;
   display: flex;
@@ -23,19 +36,13 @@ header {
   align-items: center;
 }
 
-#logo {
-  font-size: 2.5rem;
-  font-family: cursive;
-  margin-right: 37rem;
-}
-
-.header-links {
-  margin-left: 40px;
+.nav-links {
+  margin-left: 2.3rem;
   font-size: large;
   font-weight: bold;
 }
 
-.header-links a {
+.nav-links a {
   text-decoration: none;
   color: white;
 }
@@ -45,7 +52,7 @@ header {
 
 .bulb-container {
   cursor: pointer;
-  width: 300px;
+  width: 10vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -109,7 +116,7 @@ body.dark-mode .devInfo {
 }
 
 body.dark-mode .hello {
-  color: #0c7d81cc;
+  color: #26777c;
   text-shadow: none;
 }
 
@@ -127,6 +134,7 @@ body.dark-mode .glow {
 }
 
 body.dark-mode .paragraph{
+  color: #26777c;
   text-shadow: none;
 }
 
@@ -182,13 +190,18 @@ body.dark-mode .paragraph{
 
 
 .name-Class {
+  font-size: 120px;
+  width: 20ch;
+  margin-left: 3.1rem;
+  text-wrap: nowrap;
+  overflow: hidden;
   font-weight: bold;
   font-family: "Fira Sans", sans-serif;
   background: url(/new.jpg) center;
   background-size: cover;
   background-clip: text;
   color: transparent;
-  animation: animate 3s ease infinite;
+  animation: animate 2s ease infinite;
 }
 
 @keyframes animate {
@@ -196,22 +209,6 @@ body.dark-mode .paragraph{
     background-position-x: -200px;
   }
 }
-
-#name-Id {
-  font-size: 120px;
-  width: 20ch;
-  margin-left: 3.1rem;
-  text-wrap: nowrap;
-  overflow: hidden;
-  animation: typing 0.8s steps(40) infinite alternate-reverse;
-}
-
-@keyframes typing {
-  from {
-    width: 0ch;
-  }
-}
-
 
 /*Developer image section --->*/
 
@@ -418,6 +415,7 @@ h1 {
   font-family: "Kanit", serif;
   margin: 20px;
   font-size: 1.6rem;
+  color: white;
 }
 
 .skillcontainer {
@@ -433,6 +431,7 @@ h1 {
   align-items: center;
   font-size: 1.4rem;
   font-weight: 500;
+  color: white;
 
 }
 
@@ -475,6 +474,11 @@ h1 {
 
 /*project-page --->*/
 
+
+.paragraph{
+
+  color: white;
+}
 .project{
   margin: 20px 100px;
 }
@@ -505,6 +509,7 @@ h1 {
   margin-top: 20px;
   font-family: "Fira Sans", sans-serif;
   margin-left: 36%;
+  color: white;
 }
 
 .contactform form div {
@@ -547,18 +552,22 @@ h1 {
 footer {
   height: 3rem;
   background-color: #047d81cc;
-  display: flex;
-  flex-direction: row;
   color: white;
   font-size: 1rem;
   line-height: 3rem;
   margin-top: 13%;
 }
 
+.copyright{
+  text-align: center;
+  background-color: #093c3e;
+}
+
 .social-icons {
   text-align: center;
   padding: 0px 0;
-  margin-left: 55rem;
+  background-color: #12696d;
+  height: 7vh;
 }
 
 .social-icons a {
@@ -580,7 +589,7 @@ footer {
   }
 
   header {
-    height: 50px;
+    height: 5vh;
     width: 100%;
     display: flex;
     flex-direction: row;
